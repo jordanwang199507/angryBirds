@@ -20,9 +20,11 @@
 ## 📷 Recording
 
 Loading Animation
+
 https://github.com/user-attachments/assets/66e12250-69ad-490d-b0d5-772e2552edbd
 
 Home Page
+
 https://github.com/user-attachments/assets/37920b17-f250-4243-b58e-0848f62eb67c
 
 ## Getting Started
