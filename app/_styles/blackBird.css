@@ -1,0 +1,252 @@
+/* black bird */
+
+.birdBlack {
+  margin-top: 40px;
+  height: 410px;
+  width: 420px;
+  min-width: 420px;
+  position: relative;
+  /* filter: drop-shadow(2px 2px 15px #000000be); */
+}
+
+.birdBlack-hair {
+  position: absolute;
+  left: 25%;
+  top: -32%;
+  transform: rotate(10deg);
+  --c: 65px; /* control the curvature (works with percentage) */
+  width: 170px;
+  aspect-ratio: 2/3;
+  /* you can also update the 60%  */
+  mask: radial-gradient(
+      var(--c) 75% at var(--c) 50%,
+      #0000 calc(100% - 2px),
+      #000
+    )
+    calc(-1 * var(--c)) 0;
+  background: #000000;
+  z-index: 1;
+}
+.birdBlack-hair-outline {
+  position: absolute;
+  left: 23%;
+  top: -34%;
+  transform: rotate(10deg);
+  --c: 65px; /* control the curvature (works with percentage) */
+  width: 185px;
+  aspect-ratio: 2/3;
+  /* you can also update the 60%  */
+  mask: radial-gradient(
+      var(--c) 75% at var(--c) 50%,
+      #0000 calc(100% - 2px),
+      #000
+    )
+    calc(-1 * var(--c)) 0;
+  background: #000000;
+  z-index: 0;
+}
+
+.birdBlack-hair:before {
+  content: "";
+  height: 50px;
+  width: 200px;
+  background: #ffc403;
+  position: absolute;
+  top: 0%;
+}
+
+.birdBlack-hair:after {
+  content: "";
+  width: 0;
+  border-top: 20px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid #000000;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.birdBlack-body {
+  height: 430px;
+  width: 420px;
+  border-radius: 51% 49% 49% 51% / 50% 54% 46% 50%;
+  background-color: #000000;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.birdBlack-center {
+  height: 60px;
+  width: 60px;
+  perspective: 20px;
+  background-color: #505050;
+  border-radius: 43% 57% 42% 58% / 50% 51% 49% 50%;
+  position: absolute;
+  left: 50%;
+  top: 8%;
+}
+
+.birdBlack-inner-center {
+  height: 50px;
+  width: 50px;
+  perspective: 20px;
+  background-color: white;
+  border-radius: 43% 57% 42% 58% / 50% 51% 49% 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-48%, -54%);
+}
+
+.eyeBlack-outter-left {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 5;
+}
+.eyeBlack-outter-left:before {
+  content: "";
+  border-radius: 48% 52% 51% 49% / 48% 53% 47% 52%;
+  background-color: #505050;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 30px;
+}
+
+.eyeBlack-left {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border: 8px solid #222222;
+}
+
+.eyeBlack-left:before {
+  content: "";
+  background-color: #e33d00;
+  width: 140px;
+  height: 25px;
+  position: absolute;
+  top: -40%;
+  left: -57px;
+  z-index: 3;
+  transform: rotate(12deg);
+}
+
+.eyeballBlack-left {
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #222222;
+  left: 42%;
+  top: 27%;
+}
+
+.eyeBlack-outter-right {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  right: 12%;
+  z-index: 5;
+}
+.eyeBlack-outter-right:before {
+  content: "";
+  border-radius: 48% 52% 51% 49% / 48% 53% 47% 52%;
+  background-color: #505050;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+.eyeBlack-right {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  border: 8px solid #222222;
+}
+.eyeBlack-right:before {
+  content: "";
+  background-color: #e33d00;
+  width: 120px;
+  height: 25px;
+  position: absolute;
+  top: -66%;
+  right: -55px;
+  z-index: 3;
+  transform: rotate(-14deg);
+}
+.eyeballBlack-right {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #222222;
+  right: 50%;
+  top: 25%;
+}
+
+.birdBlack-inner-body {
+  height: 410px;
+  width: 420px;
+  border-radius: 51% 49% 49% 51% / 50% 54% 46% 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  overflow: hidden;
+}
+.birdBlack-stomach {
+  width: 200px;
+  height: 230px;
+  border-radius: 50%;
+  background-color: #505050;
+  transform: rotate(55deg);
+  position: absolute;
+  bottom: -17%;
+  left: 30%;
+}
+
+.birdBlack-beak-top {
+  position: absolute;
+  top: 32%;
+  right: 5%;
+  height: 40px;
+  --p: 25px;
+  aspect-ratio: 9/2;
+  clip-path: polygon(var(--p) 0, calc(100% - var(--p)) 30%, 100% 100%, 0 100%);
+  background: #fbb91e;
+  z-index: 4;
+  transform: rotate(-2deg);
+}
+
+.birdBlack-beak-bottom {
+  position: absolute;
+  bottom: 45%;
+  right: 11.5%;
+  --p: 30px;
+  height: 60px;
+  aspect-ratio: 5/2;
+  clip-path: polygon(var(--p) 100%, calc(100% - var(--p)) 100%, 100% 0, 0 0);
+  background: #f59d1e;
+  transform: rotate(-2deg);
+  z-index: 3;
+}
