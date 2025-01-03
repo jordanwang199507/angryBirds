@@ -8,6 +8,10 @@ const angryBirdsFont = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <title>Angry Birds</title>
+      </head>
       <body className={angryBirdsFont.variable}>{children}</body>
     </html>
   );
