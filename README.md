@@ -7,6 +7,7 @@
 [![deployed-on-Vercel](https://img.shields.io/badge/Deployed%20on-Vercel%20-orange)](https://vercel.com/)
 
 [🐤 Live Version](https://angry-birds-two.vercel.app)
+[🐤 Figma Design File](https://www.figma.com/design/WqilLEQou43yDPENuTxBRu/Angry-Birds?node-id=0-1&t=Qx4jrbx65weBZ6v6-1)
 
 ## 📑 Table of Content
 - [🫀 angryBirds](#-angryBirds)
@@ -48,5 +49,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - GSAP
 - Angry Birds
 
-## 🔨 Created By
+## 🔨 Created and Designed By
 - Jordan Wang @jordanwang199507
