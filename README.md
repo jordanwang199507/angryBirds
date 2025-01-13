@@ -1,6 +1,6 @@
 # angryBirds
 
-### AngryBirds - Drawing AngryBirds with simple animation using CSS and GSAP for scenery animation
+### AngryBirds - Drawing AngryBirds with animations using CSS and GSAP 
 
 [![made-with-Next](https://img.shields.io/badge/Made%20with-Next.js%20-success)](https://nextjs.org/)
 [![made-with-GSAP](https://img.shields.io/badge/Made%20with-GSAP%20-yellow)](https://woocommerce.com/)
