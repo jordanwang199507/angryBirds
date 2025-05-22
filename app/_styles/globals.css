@@ -1046,19 +1046,23 @@ body {
   .scene {
     min-height: 800px;
   }
+  .sign {
+    transform: translate(0%, -20%) scale(0.88) !important;
+  }
   .sign-outter-container {
     transform: translate(-50%, 0%) scale(0.68) !important;
     bottom: 0px;
   }
   .selection {
-    transform: translate(-50%, -50%) scale(0.58);
+    bottom: 32% !important;
+    transform: translate(-50%, -100%) scale(0.58) !important;
   }
   .wooden-sign-container {
     top: 0%;
     transform: translateX(-50%) scale(0.62);
   }
   .container {
-    transform: translate(-50%, -55%) scale(0.73);
+    transform: translate(-50%, -60%) scale(0.53) !important;
   }
 }
 
