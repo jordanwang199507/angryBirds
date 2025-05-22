@@ -1036,7 +1036,7 @@ body {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .view {
     min-height: 800px;
   }
